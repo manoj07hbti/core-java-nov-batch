@@ -10,7 +10,7 @@ public class Percentage {
         double total=math+science+english+hindi+phyedu;
         double percentage=total/500*100;
         System.out.println("percentage score by the candiate is"+percentage);
-        double number=7696;
+        double number=769;
         double per=12;
         double result=number*per/100;
         System.out.println("the 12 percentage of the number is "+result);
