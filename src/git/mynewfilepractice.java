@@ -1,8 +1,7 @@
 package git;
 
-public class MYTEST {
+public class mynewfilepractice {
     public static void main(String[] args) {
-
 
     }
 }
