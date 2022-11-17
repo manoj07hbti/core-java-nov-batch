@@ -11,7 +11,7 @@ public class Day7Assignment {
         int s = 9;
         int cube = s*s*s;
 
-        System.out.println("percentage of 1900 is - " +percent);
+        System.out.println("percentage of 1922 is - " +percent);
         System.out.println("Cube of 12 is - " +cube);
 
     }
