@@ -9,8 +9,17 @@ public class percentage {
      int num=5;
      int cube=(num*num*num);
       System.out.println(cube);
-
-
+     String name=("gaurang");
+     System.out.println("name");
+     int a=3;
+     System.out.println("my number is" +a);
+     int b=20000;
+     int c=15;
+     double divide=(double)b/c;
+     System.out.println(divide);
+     int d=3;
+     d++;
+     System.out.println(d);
 
     }
 
