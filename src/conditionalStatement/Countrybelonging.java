@@ -14,7 +14,7 @@ public class Countrybelonging {
           if(country=="nepal"){
               System.out.println("You are from land of montain");
           }
-          if(country!="india"){
+          else{
               System.out.println("you must be friendly county");
           }
 
