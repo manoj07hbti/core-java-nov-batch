@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ab36fad-66a4-4450-a35d-fe82bec16d11" name="Changes" comment="git testing" />
+    <list default="true" id="3ab36fad-66a4-4450-a35d-fe82bec16d11" name="Changes" comment="git testing">
+      <change afterPath="$PROJECT_DIR$/src/conditional/elsestatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +35,54 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.elsestatement">
+    <configuration name="Statement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conditional.Statement" />
+      <module name="core-java-nov-batch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="conditional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="elsestatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conditional.elsestatement" />
+      <module name="core-java-nov-batch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="conditional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="percentage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="git.percentage" />
+      <module name="core-java-nov-batch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="git.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.elsestatement" />
+        <item itemvalue="Application.Statement" />
+        <item itemvalue="Application.percentage" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,7 +99,42 @@
       <option name="project" value="LOCAL" />
       <updated>1668652180429</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="git testing">
+      <created>1668681954367</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668681954367</updated>
+    </task>
+    <task id="LOCAL-00003" summary="git testing">
+      <created>1668682599590</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668682599590</updated>
+    </task>
+    <task id="LOCAL-00004" summary="git testing">
+      <created>1668683417691</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668683417691</updated>
+    </task>
+    <task id="LOCAL-00005" summary="git testing">
+      <created>1668738443691</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668738443691</updated>
+    </task>
+    <task id="LOCAL-00006" summary="git testing">
+      <created>1668770875075</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668770875075</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
