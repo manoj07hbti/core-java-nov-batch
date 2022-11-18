@@ -20,6 +20,23 @@ public class percentage {
      int d=3;
      d++;
      System.out.println(d);
+     num=200;
+     percentage=10;
+     result=(num*percentage)/100;
+    System.out.println(result);
+    num=100;
+    percentage=33;
+    result=(double)(num*percentage)/100;
+    System.out.println(result);
+    num=230890;
+    percentage=23;
+    result=(double)(num*percentage)/100;
+    System.out.println(result);
+     num=3;
+     cube= num*num*num;
+    System.out.println(cube);
+
+
 
     }
 
