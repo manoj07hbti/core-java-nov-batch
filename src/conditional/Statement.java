@@ -24,18 +24,24 @@ public class Statement{
              }
              else{
                  System.out.println("This is not my hometown");
-
-
              }
 
 
 
+
+
+
+
+
+
          }
+
+
+
+
+
+
         }
-
-
-
-
         }
 
 
