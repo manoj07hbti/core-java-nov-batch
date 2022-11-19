@@ -13,18 +13,29 @@ public class Day8Assignment_if {
          */
 
     public static void main(String[] args) {
-        int marks = 70;
-        if (marks>60){
+        int marks = 32;
+        if (marks > 60) {
             System.out.println("First Division");
         }
-        int marks2 = 52;
-        if (marks2>50){
-            System.out.println("Second Division");
+        //for second division
+        if (marks < 60) {
+            if (marks > 48) {
+                System.out.println("Second Division");
+            }
         }
-        int marks3 = 52;
-        if (marks3>50){
-            System.out.println("Second Division");
+        // for third division
+
+        if (marks<48){
+            if (marks>=33){
+                System.out.println("Third Division");
+            }
+            else{
+                System.out.println("Failed");
+            }
         }
+
+        }
+
     }
 
-}
+
