@@ -10,11 +10,11 @@ public class Nestedif {
 
             if (age > 18) {
                 System.out.println("Eligible for voting...");
-                }
+            }
             else {
                 System.out.println("Not Eligible for voting...");
-                }
             }
+        }
 
         int PIN = 1234;
 
@@ -42,5 +42,4 @@ public class Nestedif {
         }
     }
 }
-
 
