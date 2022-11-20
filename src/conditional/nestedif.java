@@ -23,6 +23,22 @@ public class nestedif {
        if(choose==4){
            System.out.println("call for enquiry100");
        }
+
+       int marks=65;
+       if(marks>60){
+           System.out.println("first division");
+       } if(marks<60){
+           if(marks>40){
+               System.out.println("secound divisin");
+           }if(marks<40){
+                if (marks > 33) {
+                    System.out.println("third divisio");
+                }else{
+                    System.out.println("fail");
+
+                }
+            }
+        }
     }
 
 

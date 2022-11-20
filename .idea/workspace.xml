@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab36fad-66a4-4450-a35d-fe82bec16d11" name="Changes" comment="git testing">
-      <change afterPath="$PROJECT_DIR$/src/conditional/elsestatement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conditional/nestedif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conditional/nestedif.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +35,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.elsestatement">
+  <component name="RunManager" selected="Application.nestedif">
     <configuration name="Statement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="conditional.Statement" />
       <module name="core-java-nov-batch" />
@@ -62,6 +62,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="nestedif" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conditional.nestedif" />
+      <module name="core-java-nov-batch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="conditional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="percentage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="git.percentage" />
       <module name="core-java-nov-batch" />
@@ -77,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.nestedif" />
         <item itemvalue="Application.elsestatement" />
         <item itemvalue="Application.Statement" />
         <item itemvalue="Application.percentage" />
@@ -134,11 +148,33 @@
       <option name="project" value="LOCAL" />
       <updated>1668770875075</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="git testing">
+      <created>1668771280725</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668771280725</updated>
+    </task>
+    <task id="LOCAL-00008" summary="git testing">
+      <created>1668824753333</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668824753333</updated>
+    </task>
+    <task id="LOCAL-00009" summary="nested if">
+      <created>1668942811906</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668942811906</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="git testing" />
+    <MESSAGE value="nested if" />
+    <option name="LAST_COMMIT_MESSAGE" value="nested if" />
   </component>
 </project>
