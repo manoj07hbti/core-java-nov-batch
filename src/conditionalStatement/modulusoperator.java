@@ -4,7 +4,7 @@ public class modulusoperator {
 
     public static void main(String[]args){
 
-        int number=1;
+        int number=23;
         if(number%2==0){
             System.out.println("the number is even");
 
