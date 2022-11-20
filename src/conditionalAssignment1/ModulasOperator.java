@@ -4,16 +4,11 @@ public class ModulasOperator {
 
     public static void main(String[] args) {
 
-        int number = 7;
-
-        int result = number%2;
-        System.out.println(result);
-
         //Find a even number
 
         int Number = 28;
 
-        int Result = number%4;
+        int Result = Number%4;
 
 
             System.out.println("Number is Even : "+Result);
@@ -22,7 +17,7 @@ public class ModulasOperator {
 
 
         int num = 39;
-        int results = num%3;
+        int results = num%2;
         System.out.println("Number is Odd : "+results);
 
     }
