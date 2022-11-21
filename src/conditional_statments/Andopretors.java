@@ -1,7 +1,7 @@
 package conditional_statments;
 
 public class Andopretors {
-    public static void main(String[]args){
+    public static void main (String[]args){
       int marks=70;
       String  student = "Art";
       //True & true
