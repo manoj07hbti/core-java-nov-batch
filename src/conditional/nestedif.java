@@ -39,6 +39,21 @@ public class nestedif {
                 }
             }
         }
+       marks=30;
+       if(marks>60){
+           System.out.println("first division");
+       } if(marks<60){
+           if(marks>45){
+               System.out.println("second divsion");
+           }
+        } if(marks<45) {
+            if (marks > 33) {
+                System.out.println("third division");
+            }
+         else {
+                System.out.println("fail");
+            }
+        }
     }
 
 
