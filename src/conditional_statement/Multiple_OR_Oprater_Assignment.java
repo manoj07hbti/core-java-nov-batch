@@ -16,7 +16,7 @@ public class Multiple_OR_Oprater_Assignment {
         // True || false = True (1X0=1)
         car="Boleno";
         if (age>18 || car=="Scorpio"){
-            System.out.println("You can drive this car.");
+            System.out.println("You can drive this car......");
         }
         else {
             System.out.println("You can not drive this car.");
