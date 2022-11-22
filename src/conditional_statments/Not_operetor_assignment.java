@@ -23,7 +23,7 @@ public class Not_operetor_assignment {
             System.out.println("First division");
         }
         else{
-            System.out.println("Not good perfomance in study");
+            System.out.println("Not good perfomance   in study");
         }
         }
     }
