@@ -12,7 +12,7 @@ public class Multiple_And_Oprater {
             System.out.println("you can go to Agra...........");
         }
         else {
-            System.out.println("you can not go to Agra....");
+            System.out.println("you can not go to Agra.....");
         }
 
         // True & False = False (1X0=0)
