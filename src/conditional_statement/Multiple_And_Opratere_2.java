@@ -5,6 +5,7 @@ public class Multiple_And_Opratere_2 {
     public static void main(String[] args) {
 
         // SYNTAX True & True = True (1X1=1)
+
         int age= 20;
         String city = "Agra";
         if (age>18 & city=="Agra"){
