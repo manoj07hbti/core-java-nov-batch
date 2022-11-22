@@ -15,7 +15,7 @@ public class Not_Operator {
 
 
         if ( ! ( age<18 ) ) {
-            System.out.println("You can fill the job form.....");
+            System.out.println("You can fill the job form........");
         }
         else {
             System.out.println("You can not fill the job form......");
