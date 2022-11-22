@@ -6,7 +6,7 @@ public class Conditional_If_Else {
 
         String city = "agra";
         if ( city == "agra"){
-            System.out.println("i am going to agra........");
+            System.out.println("i am going to agra............");
         }
         else {
 
