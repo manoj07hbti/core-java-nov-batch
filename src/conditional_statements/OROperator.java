@@ -53,5 +53,7 @@ public class OROperator {
             System.out.println("NOT Eligible for voting in AGRA.. FALSE || FALSE= FALSE(0+0=0)");
         }
 
+        System.out.println("Test");
+
     }
 }
