@@ -73,7 +73,7 @@ public class Oroperator {
         // Third division
         //true&true=true
         marks = 34;
-        section = "Homescience";
+
         if (marks < 48 || marks >= 33 || section == "Homescience") {
             System.out.println("you pass the exam with 3 rd div" + marks + "your section is " + section);
         } else {
@@ -102,9 +102,7 @@ public class Oroperator {
         } else {
             System.out.println("you are not in my data");
         }
-        if (marks < 33) {
-            System.out.println("you fali in the exam");
-        }
+
 
 
 
