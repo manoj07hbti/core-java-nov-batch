@@ -8,7 +8,7 @@ public class And_operator {
 
         //True & true=True(1*1=1)
 
-        if (age > 24 & city == " Agra") {
+        if (age > 24 & city == "Agra") {
             System.out.println(" Eligible for voting in Agra...");
         } else {
             System.out.println("Not Eligible for voting in  Agra....");
