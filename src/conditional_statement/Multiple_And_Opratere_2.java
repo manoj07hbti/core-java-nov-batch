@@ -12,7 +12,7 @@ public class Multiple_And_Opratere_2 {
             System.out.println("you can fill the job form....");
         }
         else {
-            System.out.println("you can not fill the job form.");
+            System.out.println("you can not fill the job form..");
         }
 
         // SYNTAX True & False = False (1X0=0)
