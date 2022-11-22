@@ -19,7 +19,7 @@ public class Multiple_And_Oprater_Assignment {
             System.out.println("Congratulation ! you passed with second division....");
         }
         else {
-            System.out.println("i am sorry ! you are failed.........................");
+            System.out.println("i am sorry ! you are failed..........................");
         }
 
         // False & True = False (0X1=0)
