@@ -19,7 +19,7 @@ public class ANDOperatorAssignment {
         String section = "SCIENCE";
         //Code of CONDITION-1  -  TRUE & TRUE= TRUE (1X1=1)
 
-        if (marks > 60 & section =="SCIENCE") {
+        if (marks > 60  & section =="SCIENCE") {
          System.out.println("You are passed SCIENCE section with FIRST DIVISION.... TRUE & TRUE= TRUE (1X1=1)");
        }
         else{
@@ -27,7 +27,7 @@ public class ANDOperatorAssignment {
        }
 
         //Code of CONDITION-2  -  TRUE & FALSE= FALSE (1X0=0)
-
+        marks = 50;
        section = "ARTS";
 
        if(marks>48  & section =="ARTS") {
@@ -39,6 +39,7 @@ public class ANDOperatorAssignment {
 
        //Code of CONDITION-3 -  FALSE & TRUE = FALSE (0*1=0)
       section = "SCIENCE";
+       marks = 40;
 
        if(marks>33 & section == "SCIENCE") {
            System.out.println("You are passed ARTS section with THIRD DIVISION... FALSE & TRUE = FALSE (0*1=0)");
