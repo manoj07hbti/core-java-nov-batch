@@ -30,6 +30,7 @@ public class Andoperator {
           System.out.println("eligible for voting in agra");
       } else{
           System.out.println("nt eligible for voting in agra");
+
       }
 
 

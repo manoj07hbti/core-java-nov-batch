@@ -12,8 +12,11 @@ public class ANDoperatorassignment {
         }
         if (marks < 48 & marks >= 33 & section == "a") {
             System.out.printf("third division");
+        }else
+        {
+            System.out.println("fail");
         }
-        marks=9;
+        marks=56;
         section="b";
         if (marks > 60 & section == "a") {
             System.out.println("first division");
@@ -23,7 +26,8 @@ public class ANDoperatorassignment {
         }
         if (marks < 48 & marks >= 33 & section == "a") {
             System.out.printf("third division");
-        }else{
+        }
+        else{
             System.out.println("fail");
         }
         }
