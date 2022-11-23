@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ab36fad-66a4-4450-a35d-fe82bec16d11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/conditional/Notoperator.java" afterDir="false" />
+    <list default="true" id="3ab36fad-66a4-4450-a35d-fe82bec16d11" name="Changes" comment="switch statement">
+      <change afterPath="$PROJECT_DIR$/src/conditional/Loopassignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conditional/loop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ANDoperatorassignment">
+  <component name="RunManager" selected="Application.Loopassignment">
     <configuration name="ANDoperatorassignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="conditional.ANDoperatorassignment" />
       <module name="core-java-nov-batch" />
@@ -52,21 +53,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Andoperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="conditional.Andoperator" />
-      <module name="core-java-nov-batch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="conditional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Notoperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="conditional.Notoperator" />
+    <configuration name="Loopassignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conditional.Loopassignment" />
       <module name="core-java-nov-batch" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +79,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nestedif" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="conditional.nestedif" />
+    <configuration name="SwitchStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conditional.SwitchStatement" />
+      <module name="core-java-nov-batch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="conditional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="loop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conditional.loop" />
       <module name="core-java-nov-batch" />
       <extension name="coverage">
         <pattern>
@@ -106,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ANDoperatorassignment" />
-        <item itemvalue="Application.Notoperator" />
+        <item itemvalue="Application.Loopassignment" />
+        <item itemvalue="Application.loop" />
+        <item itemvalue="Application.SwitchStatement" />
         <item itemvalue="Application.Oroperator" />
-        <item itemvalue="Application.Andoperator" />
-        <item itemvalue="Application.nestedif" />
+        <item itemvalue="Application.ANDoperatorassignment" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +222,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669125173233</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="not operator">
+      <created>1669126763063</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1669126763063</updated>
+    </task>
+    <task id="LOCAL-00016" summary="switch statement">
+      <created>1669198397200</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1669198397200</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -229,7 +244,9 @@
     <MESSAGE value="nested if" />
     <MESSAGE value="and operator" />
     <MESSAGE value="or operator" />
-    <option name="LAST_COMMIT_MESSAGE" value="or operator" />
+    <MESSAGE value="not operator" />
+    <MESSAGE value="switch statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="switch statement" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -240,9 +257,24 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/conditional/ANDoperatorassignment.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/conditional/Oroperator.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/conditional/Oroperator.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/conditional/Oroperator.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/conditional/Oroperator.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
