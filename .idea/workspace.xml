@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fefd9b7-4c80-4a97-8175-8c8d0b267427" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/git/Andmoduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/git/Month.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Andmoduler">
+  <component name="RunManager" selected="Application.Month">
     <configuration name="Andmoduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="git.Andmoduler" />
       <module name="core-java-nov-batch" />
@@ -62,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ifclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="git.Ifclass" />
+    <configuration name="Moduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="git.Moduler" />
       <module name="core-java-nov-batch" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Moduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="git.Moduler" />
+    <configuration name="Month" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="git.Month" />
       <module name="core-java-nov-batch" />
       <extension name="coverage">
         <pattern>
@@ -103,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Month" />
+        <item itemvalue="Application.Elseclass" />
         <item itemvalue="Application.Andmoduler" />
         <item itemvalue="Application.Projectnew" />
         <item itemvalue="Application.Moduler" />
-        <item itemvalue="Application.Elseclass" />
-        <item itemvalue="Application.Ifclass" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669042755347</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" and operator">
+      <created>1669044083922</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669044083922</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +198,7 @@
     <MESSAGE value="nested if" />
     <MESSAGE value="moduler" />
     <MESSAGE value="and" />
-    <option name="LAST_COMMIT_MESSAGE" value="and" />
+    <MESSAGE value=" and operator" />
+    <option name="LAST_COMMIT_MESSAGE" value=" and operator" />
   </component>
 </project>
