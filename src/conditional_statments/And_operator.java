@@ -25,7 +25,7 @@ public class And_operator {
         //  False & true
         age = 25;
         city = "Agra";
-        if (age > 24 & city == "Agra") {
+        if (age <24 & city == "Delhi") {
             System.out.println("Eligible for voting");
         } else {
             System.out.println("Not Eligible for voting in  Agra ....");
