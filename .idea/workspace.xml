@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ab36fad-66a4-4450-a35d-fe82bec16d11" name="Changes" comment="switch statement">
-      <change afterPath="$PROJECT_DIR$/src/conditional/Loopassignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conditional/loop.java" afterDir="false" />
+    <list default="true" id="3ab36fad-66a4-4450-a35d-fe82bec16d11" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/conditional/factorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conditional/Loopassignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conditional/Loopassignment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Loopassignment">
-    <configuration name="ANDoperatorassignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="conditional.ANDoperatorassignment" />
-      <module name="core-java-nov-batch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="conditional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.factorial">
     <configuration name="Loopassignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="conditional.Loopassignment" />
       <module name="core-java-nov-batch" />
@@ -92,6 +79,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conditional.factorial" />
+      <module name="core-java-nov-batch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="conditional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="loop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="conditional.loop" />
       <module name="core-java-nov-batch" />
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.factorial" />
         <item itemvalue="Application.Loopassignment" />
         <item itemvalue="Application.loop" />
         <item itemvalue="Application.SwitchStatement" />
         <item itemvalue="Application.Oroperator" />
-        <item itemvalue="Application.ANDoperatorassignment" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669198397200</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="loop assignment">
+      <created>1669202925620</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1669202925620</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -246,7 +253,8 @@
     <MESSAGE value="or operator" />
     <MESSAGE value="not operator" />
     <MESSAGE value="switch statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="switch statement" />
+    <MESSAGE value="loop assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="loop assignment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
