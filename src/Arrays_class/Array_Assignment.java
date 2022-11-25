@@ -35,7 +35,7 @@ public class Array_Assignment {
 
         for(int i=0; i<price.length; i++){
 
-            System.out.println("Price is at in index : "+i + " : "+price [i] );
+            System.out.println("Prices is at in index : "+i + " : "+price [i] );
         }
 
         // ADVANCED FOR LOOP     for (DATATYPE VarName : arrayName) { CODE }
