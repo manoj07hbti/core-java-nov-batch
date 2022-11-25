@@ -22,7 +22,7 @@ public class Factorial_For_Loops {
 
             factorials =factorials*i;
 
-            System.out.println("Factorial of  is..."+factorials);
+            System.out.println("Factorial of 4 is..."+factorials);
 
         }
 
