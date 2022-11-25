@@ -5,14 +5,13 @@ public class DoWhileFact {
 
         // FACTORIAL OF FIVE BY USING DO WHILE LOOP
         int i=5;
-        int fact = 5;
+        int fact = 1;
 
         do {
-            fact = fact * 4 * 3* 2;
-
-            System.out.println("factorial of 5 = " + fact);
+            fact = fact * i;
             i--;
         }
-        while (i >= 5);
+        while (i > 0);
+        System.out.println("factorial of 5 = " + fact);
     }
 }
