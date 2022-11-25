@@ -26,7 +26,7 @@ public class Array_Assignment {
 
         for(double var : price){
 
-            System.out.println(" Advanced for loop : "+var);
+            System.out.println(" Advanced for loops : "+var);
         }
 
         //SYNTAX   DataType varName []= {value1,value2,value3, value4....valueN };
