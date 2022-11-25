@@ -41,7 +41,7 @@ public class Array_Assignment {
         // ADVANCED FOR LOOP     for (DATATYPE VarName : arrayName) { CODE }
         for (double var : price ){
 
-            System.out.println("Price is at in index "+var);
+            System.out.println("Prices is at in index "+var);
         }
 
 
