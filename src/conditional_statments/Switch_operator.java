@@ -37,7 +37,7 @@ public class Switch_operator {
                 break;
 
             case 8:
-                System.out.println("Augut");
+                System.out.println("Augsut");
                 break;
             case 9:
                 System.out.println("September");
