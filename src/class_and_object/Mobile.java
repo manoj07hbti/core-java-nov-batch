@@ -23,7 +23,7 @@ public class Mobile {
 
         Mobile obj2 = new Mobile();
 
-        System.out.println("The brand name is : " + obj2.Brand);
+        System.out.println("The brand name  is : " + obj2.Brand);
         System.out.println("The ram is : " + obj2.Ram);
         System.out.println("The orice is : " + obj2.price);
         System.out.println("Brand : " + obj2.Brand + " Ram : " + obj2.Ram + "Price : " + obj2.price);
