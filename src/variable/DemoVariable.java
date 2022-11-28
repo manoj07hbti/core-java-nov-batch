@@ -17,7 +17,7 @@ public class DemoVariable {
          System.out.println("Salary is : "+salary);
 
 
-         String variable="ABDCS12345.78.8.9.0.0.0" ;
+         String variable="RAM RAMji12345.78.8.9.0.0.0" ;
 
          System.out.println("Printing string "+variable);
 
