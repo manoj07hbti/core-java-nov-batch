@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fefd9b7-4c80-4a97-8175-8c8d0b267427" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/git/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/git/Bike.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Car">
+  <component name="RunManager" selected="Application.Bike">
+    <configuration name="Bike" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="git.Bike" />
+      <module name="core-java-nov-batch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="git.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Building" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="git.Building" />
       <module name="core-java-nov-batch" />
@@ -87,26 +100,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mobile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="git.mobile" />
-      <module name="core-java-nov-batch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="git.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bike" />
         <item itemvalue="Application.Car" />
         <item itemvalue="Application.Doctor" />
         <item itemvalue="Application.Employee" />
         <item itemvalue="Application.Building" />
-        <item itemvalue="Application.mobile" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669693296734</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Car">
+      <created>1669693759811</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669693759811</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,6 +283,7 @@
     <MESSAGE value="building" />
     <MESSAGE value="employee" />
     <MESSAGE value="Doctor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Doctor" />
+    <MESSAGE value="Car" />
+    <option name="LAST_COMMIT_MESSAGE" value="Car" />
   </component>
 </project>
