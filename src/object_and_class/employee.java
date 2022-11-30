@@ -21,6 +21,8 @@ public class employee {
             System.out.println("employee name is: " + obj.name + " exp.: " + obj.experience + " salary : " + obj.salary);
             employee obj2=new employee("lalu",5,125.32);
         System.out.println("employee name is: " + obj2.name + " exp.: " + obj2.experience + " salary : " + obj2.salary);
+        employee obj3=new employee("himanshu",5,22.22);
+        System.out.println("name is : "+obj3.name+"experience is: "+obj3.experience +"salary is: "+obj3.salary);
 
 
         }
