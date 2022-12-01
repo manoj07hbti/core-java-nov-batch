@@ -15,8 +15,12 @@ package Method;
             System.out.println("This is a method");
         }
         public void oprationmethod(){
-            System.out.println("It's name is opration  method ");
+            System.out.println("It's name is opration method ");
         }
+        public void salarymethod(){
+            System.out.println("Salary is 80000");
+        }
+
         public static void main(String[] args) {
 
             // Step 1 create object
@@ -25,6 +29,7 @@ package Method;
             // Step 2obj. name .method name();
             obj.treatmentmethod ();
             obj.oprationmethod();
+            obj.salarymethod();
         }
     }
 
