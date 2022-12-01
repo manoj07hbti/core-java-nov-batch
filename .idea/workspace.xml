@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fefd9b7-4c80-4a97-8175-8c8d0b267427" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/git/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/method/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/method/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/git/Tableof5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/git/Tableof5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +37,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Bike">
+  <component name="RunManager" selected="Application.Student">
     <configuration name="Bike" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="git.Bike" />
       <module name="core-java-nov-batch" />
@@ -48,12 +51,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Building" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="git.Building" />
+    <configuration name="Book" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.Book" />
       <module name="core-java-nov-batch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="git.*" />
+          <option name="PATTERN" value="method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="git.Employee" />
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.Student" />
       <module name="core-java-nov-batch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="git.*" />
+          <option name="PATTERN" value="method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Student" />
+        <item itemvalue="Application.Book" />
         <item itemvalue="Application.Bike" />
         <item itemvalue="Application.Car" />
         <item itemvalue="Application.Doctor" />
-        <item itemvalue="Application.Employee" />
-        <item itemvalue="Application.Building" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669693759811</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Bike">
+      <created>1669694198204</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1669694198204</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,6 +294,7 @@
     <MESSAGE value="employee" />
     <MESSAGE value="Doctor" />
     <MESSAGE value="Car" />
-    <option name="LAST_COMMIT_MESSAGE" value="Car" />
+    <MESSAGE value="Bike" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bike" />
   </component>
 </project>
