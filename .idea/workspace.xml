@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab36fad-66a4-4450-a35d-fe82bec16d11" name="Changes" comment="array assignment">
-      <change afterPath="$PROJECT_DIR$/src/method_class/calculatorcomplex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/method_class/complexmethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/method_class/demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/method_class/factorialclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/method_class/armstrongmethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parameter_method/calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parameter_method/oddeven.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/parameterizedconstructor/employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/method_class/factorialclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/method_class/factorialclass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,35 +42,35 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.factorialclass">
+  <component name="RunManager" selected="Application.calculator">
+    <configuration name="armstrongmethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method_class.armstrongmethod" />
+      <module name="core-java-nov-batch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="method_class.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parameter_method.calculator" />
+      <module name="core-java-nov-batch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="parameter_method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="calculatorcomplex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="method_class.calculatorcomplex" />
-      <module name="core-java-nov-batch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="method_class.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="method_class.demo" />
-      <module name="core-java-nov-batch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="method_class.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="engineer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="method_class.engineer" />
       <module name="core-java-nov-batch" />
       <extension name="coverage">
         <pattern>
@@ -95,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="method_class.person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="method_class.person" />
+    <configuration name="oddeven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parameter_method.oddeven" />
       <module name="core-java-nov-batch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="method_class.*" />
+          <option name="PATTERN" value="parameter_method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.calculator" />
+        <item itemvalue="Application.oddeven" />
+        <item itemvalue="Application.armstrongmethod" />
         <item itemvalue="Application.factorialclass" />
         <item itemvalue="Application.calculatorcomplex" />
-        <item itemvalue="Application.demo" />
-        <item itemvalue="Application.method_class.person" />
-        <item itemvalue="Application.engineer" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669808983030</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="complex method">
+      <created>1669948561244</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1669948561244</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -320,7 +327,8 @@
     <MESSAGE value="paramaterized constructor" />
     <MESSAGE value="class and object" />
     <MESSAGE value="method assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="method assignment" />
+    <MESSAGE value="complex method" />
+    <option name="LAST_COMMIT_MESSAGE" value="complex method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
