@@ -6,13 +6,22 @@ public class PrimeNumber {
 
     public void Prime( int num) {
 
+        boolean isPrime = false;
+        for (int i =2; i <num; i++) {
+            if (num % i == 0) {
 
-        for (int i = 1; i <=num; i++) {
-            if (num %2 == 0) {
-                System.out.println(num + " Prime number");
+                isPrime = false;
+                break;
             } else {
-                System.out.println(num + " not Prime number");
+                isPrime = true;
             }
+        }
+
+        if(isPrime) {
+            System.out.println(num+" is Prime Number");
+        }
+        else {
+            System.out.println(num+" is not prime number");
         }
     }
 
@@ -20,6 +29,8 @@ public class PrimeNumber {
 
         PrimeNumber obj = new PrimeNumber();
         obj.Prime(5 );
+        obj.Prime(8);
+        obj.Prime(13);
     }
 
 }
