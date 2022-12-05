@@ -23,7 +23,9 @@ public class CalcReturnType {
 
     public static void main(String[] args) {
         CalcReturnType obj = new CalcReturnType();
-        int add = obj.add(9,1);
+        int a = 9;
+        int b = 1;
+        int add = obj.add(a,b);
         System.out.println("Addition of Number : "+add); // how to print number a and b in result
 
         int sub = obj.sub(9,1);

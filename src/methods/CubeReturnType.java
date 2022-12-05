@@ -3,7 +3,8 @@ package methods;
 public class CubeReturnType {
 
     public int cude(int a){
-        int result = a*a*a; // how we use Math.pow(a,3); this method
+        int result = 0;
+         result += Math.pow(a,3); // how we use Math.pow(a,3); this method
         return  result;
     }
 
