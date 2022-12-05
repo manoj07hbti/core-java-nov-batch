@@ -3,7 +3,6 @@ package methods;
 public class PrimeNumber {
 
     // Check Prime Number
-
     public void Prime( int num) {
 
         boolean isPrime = false;

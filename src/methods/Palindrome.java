@@ -4,11 +4,11 @@ public class Palindrome {
 
     public void palindrome () {
 
-        int r,sum=110,temp;
+        int r,sum=0,temp;
         int n=151;
 
         temp=n;
-        while(n>100){
+        while(n>0){
             r=n%10;  //getting remainder
             sum=(sum*10)+r;
             n=n/10;
