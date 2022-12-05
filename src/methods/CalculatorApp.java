@@ -37,7 +37,7 @@ public class CalculatorApp {
 
         CalculatorApp obj= new CalculatorApp();
         int result = 0;
-/*
+
         if (choice == 1){
             result = obj.add(a,b);
             System.out.println("Addition is "+result);
@@ -51,22 +51,8 @@ public class CalculatorApp {
             result = obj.div(a,b);
             System.out.println("divide is "+result);
         }
-        */
-        // using switch statement
-        switch (choice){
-            case 1 : result = obj.add(a,b);
-                System.out.println("Addition is "+result);
-                break;
-            case 2 : result = obj.sub(a,b);
-                System.out.println("Subtraction is "+result);
-                break;
-            case 3 : result = obj.multiply(a,b);
-                System.out.println("Multiplication is "+result);
-                break;
-            case 4 : result = obj.div(a,b);
-                System.out.println("divide is "+result);
-                break;
-        }
+
+
 
     }
 }
