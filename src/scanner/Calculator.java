@@ -20,43 +20,63 @@ public class Calculator {
     }
 
     // Divide
-    public int div(int a , int b){
-        return a/b;
+    public double div(int a , int b){
+        return (double) a/b;
     }
 
 
     public static void main(String[] args) {
+
+        // create scanner object
         Scanner scanner = new Scanner(System.in);
 
-        // ADDITION
-        System.out.println("Value of a :");
-        int a = scanner.nextInt();
+        String flag = "Y";
 
-        System.out.println("Value of b :");
-        int b = scanner.nextInt();
+        while (flag.equals("Y")) {
 
-        System.out.println("Enter Choice : 1- Addition , 2- Subtract, 3 - Multiplication , 4- Divide");
-        int choice = scanner.nextInt(); //  reads choices
+            System.out.println("********** WELCOME TO CALCULATOR APP **********");
 
-        Calculator obj = new Calculator();
-        int result = 0;
+            System.out.println("Value of a :");
+            int a = scanner.nextInt();
 
-        if(choice == 1) {
-            result = obj.addition(a,b);
-            System.out.println("Sum is "+result);
+            System.out.println("Value of b :");
+            int b = scanner.nextInt();
+
+            System.out.println("Enter Choice : + for Addition , - for Subtract,  * for Multiplication , / forDivide");
+            Scanner scanner1 = new Scanner(System.in);
+            String choice = scanner1.nextLine(); //  reads choices
+
+            Calculator obj = new Calculator();
+            int result;
+
+            switch (choice) {
+                case "+":
+                    result = obj.addition(a, b);
+                    System.out.println("Sum is " + result);
+                    break;
+                case "-":
+                    result = obj.subtract(a, b);
+                    System.out.println("Sub is " + result);
+                    break;
+                case "*":
+                    result = obj.Multi(a, b);
+                    System.out.println("Multi is " + result);
+                    break;
+                case "/":
+                    double output = obj.div(a, b);
+                    System.out.println("Div is " + output);
+                    break;
+                default:
+                    System.out.println("Invalid choice plEASE choose correct number ");
+                    break;
+            }
+
+
+            System.out.println("DO you want t continue to use Calculator press : Y for continue OR for exit press any key");
+
+            flag = scanner1.nextLine();
         }
-        else if(choice ==2){
-            result = obj.subtract(a,b);
-            System.out.println("Sub is "+result);
-        }
-        else if(choice == 3) {
-            result = obj.Multi(a,b);
-            System.out.println("Multi is "+result);
-        }
-        else if(choice == 4){
-            result = obj.div(a,b);
-            System.out.println("Div is "+result);
-        }
+        System.out.println("********** THANKS FOR USING CALCULATOR APP **********");
     }
 
 }
