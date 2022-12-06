@@ -21,7 +21,7 @@ public class DemoScanner {
         System.out.println("You have entered your state " + state);
 
         // Reading data with long
-        System.out.println("Please enter your total population.....");
+        System.out.println("Please enter your total population......");
         long population=scanner.nextLong();
         System.out.println("You have entered your country population..." +population);
 
