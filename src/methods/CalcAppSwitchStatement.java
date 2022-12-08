@@ -24,7 +24,13 @@ public class CalcAppSwitchStatement {
     }
 
     public static void main(String[] args) {
+
         Scanner calci = new Scanner(System.in);  //calci is object name can be anything but meaningful
+
+        String flag = "Y";
+
+        while (flag.equals("Y")) {
+
         System.out.println("Please Enter Value of a : ");
         int a = calci.nextInt();  //Storing the value of a
 
@@ -33,7 +39,8 @@ public class CalcAppSwitchStatement {
 
 
         System.out.println("Enter Choice"+"\n"+"1 For Addition"+"\n"+"2 For Subtraction"+"\n"+"3 For Multiplication"+"\n"+"4 For Divide");
-        int choice = calci.nextInt();
+            Scanner calci1 = new Scanner(System.in);
+        int choice = calci1.nextInt();
 
         CalcAppSwitchStatement obj= new CalcAppSwitchStatement();
         int result = 0;
@@ -55,6 +62,9 @@ public class CalcAppSwitchStatement {
             default:
                 System.out.println("You entered invalid Value or Choice");
         }
+            Scanner calci2 = new Scanner(System.in);
+            System.out.println("Do you want to continue to use Calculator press: Y for continue OR press any key for exit");
 
+            flag = calci2.nextLine();
     }
-}
+}}
