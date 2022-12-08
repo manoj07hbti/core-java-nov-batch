@@ -63,9 +63,7 @@ public class Calculator_app_Switch {
             System.out.println("please enter y for continue  and other for exit");
             Flag= sc2.nextLine();
         }
-
-
-        }
+    }
 }
 
 
