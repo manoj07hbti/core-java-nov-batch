@@ -10,7 +10,7 @@ public class calculator {
         return multi;
     }
     public double divide(int a,int b){
-        double divide = (double)(a/b);
+        double divide = (double)a/b;
         return divide;
     }
     public int sub(int a,int b){
