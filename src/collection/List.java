@@ -1,7 +1,6 @@
 package collection;
 
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class List {
     //name cant be the ArrayList as method name too
