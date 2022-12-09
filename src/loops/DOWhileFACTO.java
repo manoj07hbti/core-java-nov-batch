@@ -11,7 +11,7 @@ public class DOWhileFACTO {
 
             i--;
         }while(i>0);
-
         System.out.println("The factor of 5! is " + "=" + facto);
+
     }
 }

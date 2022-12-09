@@ -20,11 +20,11 @@ public class NOToperator {
 
         }
         int number=43;
-        if(number!=40||number>40){
-            System.out.println("your number is not greater then 40");
+        if(number!=40){
+            System.out.println("your number is greater then 40");
         }
         else{
-            System.out.println("your number is greater then 40");
+            System.out.println("your number is not greater then 40");
         }
     }
 }

@@ -62,9 +62,9 @@ public class Oroperator {
             System.out.println("your marks is" + marks + "your section is not found");
         }
         //false&false=false
-        marks=77;
+        marks=30;
         section="hindi";
-        if (marks < 60 || marks > 48 || section == "arts") {
+        if ( marks > 48 || section == "arts") {
             System.out.println("your marks is " + marks + "your section will be" + section);
         } else {
             System.out.println("you are not in list");
@@ -95,9 +95,9 @@ public class Oroperator {
             System.out.println("your marks is  " + marks + "you cant take " + section);
         }
         //false&false=false
-        marks = 74;
+        marks = 22;
         section = "arts";
-        if (marks < 48 || marks >= 33 || section == "Homescience") {
+        if ( marks >= 33 || section == "Homescience") {
             System.out.println("you pass the exam with 3 rd div" + marks + "your section is " + section);
         } else {
             System.out.println("you are not in my data");
