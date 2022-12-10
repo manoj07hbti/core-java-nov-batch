@@ -1,6 +1,4 @@
-package conditional_framework;
-import java.text.DecimalFormat;
-import java.time.format.DecimalStyle;
+package conditional_framework.arraylist;
 import java.util.ArrayList;
 
 public class collection_generics {

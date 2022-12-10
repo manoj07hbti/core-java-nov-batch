@@ -1,4 +1,4 @@
-package conditional_framework;
+package conditional_framework.arraylist;
 
 import java.util.ArrayList;
 
