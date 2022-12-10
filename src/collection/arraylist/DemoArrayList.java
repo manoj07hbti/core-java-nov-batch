@@ -1,4 +1,4 @@
-package collection;
+package collection.arraylist;
 
 import java.util.ArrayList;
 
@@ -67,6 +67,13 @@ public class DemoArrayList {
         for (int i=0; i<course.size(); i++){
 
             System.out.println("Printing list : "+course.get(i) + " at INDEX: "+i);
+        }
+
+        course.remove(0);
+
+        for (int i=0; i<course.size(); i++){
+
+            System.out.println(" AFTER REMOVE Printing list : "+course.get(i) + " at INDEX: "+i);
         }
 
         // SYNTAX : for(DATATYPE var: collectionName/array){ CODE }
