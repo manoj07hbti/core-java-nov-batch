@@ -76,14 +76,14 @@ public class Generic {
                 System.out.println("Print rating using for loop :"+rating.get(b)+"at index"+b);
             }
 
+            int f=0;  // PRINTING INDEX IN ADAVANCE FOR LOOP
+            for(Double kfc: rating) {
 
-            for(Double kfc: rating){
-
-                System.out.println("print using advance for loop  :"+kfc);
-
+                System.out.println("print using advance for loop  :" + kfc + " INDEX at:" + f);
+                f++; // PRINTING INDEX IN ADVANCE FOR LOOP
 
                 // printing integer using for and advance for loop
-
+            }
                                                                   //no duplicated variable in same method
                 ArrayList<Integer>amount=santosh.collection();
                 for(Integer var:amount){
@@ -105,6 +105,6 @@ public class Generic {
         }
 
 
-    }
+
 
 
