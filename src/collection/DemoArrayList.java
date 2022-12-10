@@ -1,7 +1,7 @@
 package collection;
 
 import java.util.ArrayList;
-import java.util.zip.DeflaterOutputStream;
+
 
 public class DemoArrayList {
 
@@ -70,9 +70,11 @@ public class DemoArrayList {
         }
 
         // SYNTAX : for(DATATYPE var: collectionName/array){ CODE }
+        int i=0;
         for(String var: course){
 
-            System.out.println("Printing in advance loop "+var);
+            System.out.println("Printing in advance loop "+var + "at INDEX: "+i);
+            i++;
         }
 
        ArrayList<Integer> marks= obj.createIntegerList();
