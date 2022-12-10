@@ -53,11 +53,11 @@ public class List {
             System.out.println("printing using for loop method after deleting index 3 5 is :" + name.get(a)+ "index number is "+a);
 
         }
-
+        int g=0;  // INDEX TO PRINT IN ADVANCE FOR LOOP
         for(Object variable: name){  //   : imp
 
-            System.out.println("Printing using advance for loop after removing index:"+variable );// printing will be done using variable name
-
+            System.out.println("Printing using advance for loop after removing index:"+variable +" INDEX at:  "+g);// printing will be done using variable name
+         g++;   // INDEX TO BE PRINTED IN ADVANCE FOR LOOP ( AFTER REMOVE COMMAND)
         }  // can we print index number in advance for loop
 
 
