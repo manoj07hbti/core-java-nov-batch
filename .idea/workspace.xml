@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab36fad-66a4-4450-a35d-fe82bec16d11" name="Changes" comment="return type method">
-      <change afterPath="$PROJECT_DIR$/src/arraylist/assignment2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/arraylist/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arraylist/vehiclearraylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/vehicle.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/parameterizedconstructor/employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -44,8 +45,11 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="arraylist" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="arraylist" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.assignment2">
+  <component name="RunManager" selected="Application.vehiclearraylist">
     <configuration name="assignment2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arraylist.assignment2" />
       <module name="core-java-nov-batch" />
@@ -98,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="prime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="method_class.prime" />
+    <configuration name="vehiclearraylist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraylist.vehiclearraylist" />
       <module name="core-java-nov-batch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="method_class.*" />
+          <option name="PATTERN" value="arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.vehiclearraylist" />
         <item itemvalue="Application.assignment2" />
         <item itemvalue="Application.assignmentarraylist" />
         <item itemvalue="Application.demo" />
         <item itemvalue="Application.calc" />
-        <item itemvalue="Application.prime" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670521717463</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="arraylist 2">
+      <created>1670776953484</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1670776953484</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -363,7 +374,8 @@
     <MESSAGE value="return type method" />
     <MESSAGE value="calculator app" />
     <MESSAGE value="arraylist" />
-    <option name="LAST_COMMIT_MESSAGE" value="arraylist" />
+    <MESSAGE value="arraylist 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="arraylist 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
