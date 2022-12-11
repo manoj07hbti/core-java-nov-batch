@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab36fad-66a4-4450-a35d-fe82bec16d11" name="Changes" comment="return type method">
+      <change afterPath="$PROJECT_DIR$/src/arraylist/assignment2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arraylist/demo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/parameterizedconstructor/employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scannermethod/calc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/returntypemethod/calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/returntypemethod/calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,38 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.calc">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="arraylist" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.assignment2">
+    <configuration name="assignment2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraylist.assignment2" />
+      <module name="core-java-nov-batch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="assignmentarraylist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraylist.assignmentarraylist" />
+      <module name="core-java-nov-batch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="calc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="scannermethod.calc" />
       <module name="core-java-nov-batch" />
@@ -54,25 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cube" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="returntypemethod.cube" />
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraylist.demo" />
       <module name="core-java-nov-batch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="returntypemethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="percentage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="returntypemethod.percentage" />
-      <module name="core-java-nov-batch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="returntypemethod.*" />
+          <option name="PATTERN" value="arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,26 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="returntypemethod.calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="returntypemethod.calculator" />
-      <module name="core-java-nov-batch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="returntypemethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.assignment2" />
+        <item itemvalue="Application.assignmentarraylist" />
+        <item itemvalue="Application.demo" />
         <item itemvalue="Application.calc" />
         <item itemvalue="Application.prime" />
-        <item itemvalue="Application.returntypemethod.calculator" />
-        <item itemvalue="Application.percentage" />
-        <item itemvalue="Application.cube" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +326,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670239754504</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="calculator app">
+      <created>1670479789912</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1670479789912</updated>
+    </task>
+    <task id="LOCAL-00030" summary="arraylist">
+      <created>1670521717463</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1670521717463</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -342,7 +361,9 @@
     <MESSAGE value="complex method" />
     <MESSAGE value="input parameter" />
     <MESSAGE value="return type method" />
-    <option name="LAST_COMMIT_MESSAGE" value="return type method" />
+    <MESSAGE value="calculator app" />
+    <MESSAGE value="arraylist" />
+    <option name="LAST_COMMIT_MESSAGE" value="arraylist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
