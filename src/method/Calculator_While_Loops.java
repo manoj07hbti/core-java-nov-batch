@@ -51,7 +51,7 @@ public class Calculator_While_Loops {
 
             if (choice.equals("+") ){
                 result = obj.add(a,b);
-                System.out.println("Addition is "+result);
+                System.out.println("Addition is " +result);
 
             } else if (choice.equals("-")) {
                 result = obj.sub(a,b);

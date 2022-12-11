@@ -32,7 +32,7 @@ public class Cal_App_Switch_Statement {
 
         while (flag.equals("Y")) {
 
-            System.out.println("Please Enter Value of a : ");
+            System.out.println("Please Enter Value of a :  ");
             int a = calculator.nextInt();
 
             System.out.println("Please Enter Value of b : ");
