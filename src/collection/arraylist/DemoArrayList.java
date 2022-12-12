@@ -8,7 +8,7 @@ public class DemoArrayList {
     // create String arrayList
 
     public ArrayList <String> createStringList(){
-   // SYNTAX :  ArrayList <Datatyep> objName= new ArrayList();
+   // SYNTAX :  ArrayList <Datatype> objName= new ArrayList();
 
         ArrayList <String> course= new ArrayList<>();
 
