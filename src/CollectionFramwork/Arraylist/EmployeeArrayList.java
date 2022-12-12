@@ -1,6 +1,6 @@
 package CollectionFramwork.Arraylist;
 
-import CollectionFramwork.Model.Employee;
+import CollectionFramwork.Arraylist.Model.Employee;
 
 import java.util.ArrayList;
 

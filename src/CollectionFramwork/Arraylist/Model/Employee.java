@@ -1,4 +1,4 @@
-package CollectionFramwork.Model;
+package CollectionFramwork.Arraylist.Model;
 
 public class Employee {
     String name;
