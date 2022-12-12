@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fefd9b7-4c80-4a97-8175-8c8d0b267427" name="Changes" comment="Book">
-      <change afterPath="$PROJECT_DIR$/src/method/Arraylist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/method/Newinput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/method/Primenumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/methodreturn/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/method/Arraylist2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methodreturn/Hashset.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/basics/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/git/Tableof5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/git/Tableof5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/method/Demoscanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/method/Arraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/method/Arraylist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,22 +39,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.method.Arraylist">
-    <configuration name="Arraylist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methodreturn.Arraylist" />
-      <module name="core-java-nov-batch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="methodreturn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Book" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="method.Book" />
+  <component name="RunManager" selected="Application.methodreturn.Hashset">
+    <configuration name="Arraylist2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.Arraylist2" />
       <module name="core-java-nov-batch" />
       <extension name="coverage">
         <pattern>
@@ -68,12 +53,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="method.Calculator" />
+    <configuration name="Hashset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.Hashset" />
       <module name="core-java-nov-batch" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ifcondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="git.Ifcondition" />
+      <module name="core-java-nov-batch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="git.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="methodreturn.Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methodreturn.Calculator" />
+    <configuration name="methodreturn.Hashset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="methodreturn.Hashset" />
       <module name="core-java-nov-batch" />
       <extension name="coverage">
         <pattern>
@@ -109,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.methodreturn.Hashset" />
+        <item itemvalue="Application.Ifcondition" />
+        <item itemvalue="Application.Hashset" />
+        <item itemvalue="Application.Arraylist2" />
         <item itemvalue="Application.method.Arraylist" />
-        <item itemvalue="Application.Book" />
-        <item itemvalue="Application.methodreturn.Calculator" />
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.Arraylist" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670233356370</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="arraylist">
+      <created>1670742930233</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1670742930234</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,6 +336,7 @@
     <MESSAGE value="calculator" />
     <MESSAGE value="return method" />
     <MESSAGE value="Calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculator" />
+    <MESSAGE value="arraylist" />
+    <option name="LAST_COMMIT_MESSAGE" value="arraylist" />
   </component>
 </project>

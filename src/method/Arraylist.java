@@ -1,10 +1,8 @@
 package method;
 
-import basics.Demo;
-
 import java.util.ArrayList;
 
-public class Arraylist {
+public class Arraylist<I extends Number> {
     public void Demo(){
         String city="agra";
         String city2="delhi";
@@ -38,4 +36,6 @@ public class Arraylist {
         Arraylist obj =new Arraylist();
         obj.Demo();
     }
+
+
 }
