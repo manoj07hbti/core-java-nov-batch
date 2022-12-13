@@ -1,5 +1,7 @@
 package conditional_framework.model;
 
+import java.util.Objects;
+
 public class Employee_M {
 
     String name;
@@ -14,6 +16,22 @@ public class Employee_M {
         this.age = age;
         this.salary = salary;
     }
+    //hash code and equals
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Employee_M that = (Employee_M) o;
+        return age == that.age && Double.compare(that.salary, salary) == 0 && name.equals(that.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age, salary);
+    }
+
+
     //getter and setter
 
 
