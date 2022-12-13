@@ -1,5 +1,7 @@
 package collection_framework.model;
 
+import java.util.Objects;
+
 public class Employee {
     String name;
     String department;
@@ -11,6 +13,21 @@ public class Employee {
         this.name = name;
         this.department = department;
         this.desk = desk;
+    }
+
+    // hashcode & equals (Right Click > Generate > equals() and hashcode())
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Employee employee = (Employee) o;
+        return desk == employee.desk && name.equals(employee.name) && department.equals(employee.department);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, department, desk);
     }
 
     // Getter and Setter
