@@ -4,6 +4,8 @@ import collection.model.Student;
 
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 
 public class StudentSet {
 
@@ -11,7 +13,7 @@ public class StudentSet {
 
         // HashSet <DATATYPE> objName= new ClassName();
 
-        HashSet <Student> studentHashSet = new HashSet<>();
+        LinkedHashSet <Student> studentHashSet = new LinkedHashSet<>();
 
         //create student data
 
