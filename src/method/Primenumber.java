@@ -18,6 +18,6 @@ public class Primenumber {
 
     public static void main(String[] args) {
         Primenumber obj=new Primenumber();
-        obj.prime(7);
+        obj.prime(8);
     }
 }

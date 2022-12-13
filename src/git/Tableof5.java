@@ -14,6 +14,7 @@ public class Tableof5 {
             result=number*a;
             System.out.println(number+"*"+a+"="+result);
         }
+
         number=9;
 
         for(int b=1; b<=10; b++){
