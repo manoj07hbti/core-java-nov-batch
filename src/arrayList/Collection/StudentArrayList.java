@@ -1,6 +1,6 @@
-package arrayList;
+package arrayList.Collection;
 
-import model.Student;
+import arrayList.model.Student;
 
 import java.util.ArrayList;
 

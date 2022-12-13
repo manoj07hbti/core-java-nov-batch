@@ -1,6 +1,6 @@
-package arrayList;
+package arrayList.Collection;
 
-import model.Vehicle;
+import arrayList.model.Vehicle;
 
 import java.util.ArrayList;
 
@@ -28,7 +28,7 @@ public class VehicleArrayList {
 
         public static void main(String[] args) {
 
-            arrayList.VehicleArrayList obj = new arrayList.VehicleArrayList();
+            VehicleArrayList obj = new VehicleArrayList();
             ArrayList<Vehicle> vehiclesList = obj.createVehicleList();
 
             for (Vehicle vehicle : vehiclesList) {

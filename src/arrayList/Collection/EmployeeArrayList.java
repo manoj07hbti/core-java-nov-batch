@@ -1,6 +1,6 @@
-package arrayList;
+package arrayList.Collection;
 
-import model.Employee;
+import arrayList.model.Employee;
 
 import java.util.ArrayList;
 

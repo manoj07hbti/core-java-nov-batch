@@ -1,4 +1,4 @@
-package model;
+package arrayList.model;
 
 public class Vehicle {
 
