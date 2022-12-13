@@ -1,5 +1,7 @@
 package collection_framework.model;
 
+import java.util.Objects;
+
 public class Employee {
 
     // This is Model Class of Employee
@@ -24,9 +26,24 @@ public class Employee {
         this.salary = salary;
     }
 
-    public Employee() {
+    // Override hashcode and equals method
 
+    // Equality will check on the basis of age ,id,salary,name ,department
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Employee employee = (Employee) o;
+        return age == employee.age && id == employee.id && Double.compare(employee.salary, salary) == 0 && name.equals(employee.name) && department.equals(employee.department);
     }
+
+
+     // Java will give the same hashcode for the same object on the basis of name, age, department, id, salary
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age, department, id, salary);
+    }
+
 
     // Getter and Setter
     // Getter Method : It is used for getting data or reading the data
