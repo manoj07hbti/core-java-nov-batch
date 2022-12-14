@@ -3,6 +3,7 @@ package collection.array;
 import collection.model.Studentlist;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Student {
 
@@ -14,6 +15,19 @@ public class Student {
         Studentlist student2=new Studentlist("Arun",51,"B");
         Studentlist student3=new Studentlist("Gagan",44,"C");
         Studentlist student4=new Studentlist("Vishal",34,"D");
+
+        Scanner scanner= new Scanner(System.in);
+        System.out.println("Please enter name of student: ");
+        String name=scanner.nextLine();                         // use of scanner class
+
+
+        System.out.println("Please enter roll no: ");
+        int rollno=scanner.nextInt();
+
+        System.out.println("Please enter SECTION of student: ");
+        Scanner scanner1= new Scanner(System.in);
+        String section= scanner1.nextLine();
+
 
         student.add(student1);
         student.add(student2);

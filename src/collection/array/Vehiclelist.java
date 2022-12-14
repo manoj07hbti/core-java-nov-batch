@@ -3,6 +3,7 @@ package collection.array;
 import collection.model.Vehicle;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Vehiclelist {
 
@@ -20,6 +21,24 @@ public class Vehiclelist {
         Vehicle pune3=new Vehicle("Tesla","grey",5,3772233.54);
         Vehicle pune4=new Vehicle("Toyota","white",4,372233.54);
 
+        // scanner  use
+
+        Scanner scanner= new Scanner(System.in);
+        System.out.println("Please enter name : ");
+        String name=scanner.nextLine();
+
+        System.out.println("Please enter colour: ");
+        String colour=scanner.nextLine();
+
+        System.out.println("Please enter rating: ");
+        Scanner scanner1= new Scanner(System.in);
+        int rating= scanner1.nextInt();
+
+        System.out.println("please enter the price:");
+        Scanner scanner2= new Scanner(System.in);
+        double price=scanner2.nextDouble();
+
+           //scanner end
 
         //objectname.add(add object name);
 
