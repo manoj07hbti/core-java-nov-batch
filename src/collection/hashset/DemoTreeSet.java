@@ -1,7 +1,7 @@
 package collection.hashset;
 
-import loops.Demo;
 
+import java.util.Scanner;
 import java.util.TreeSet;
 
 public class DemoTreeSet {
@@ -31,11 +31,33 @@ public class DemoTreeSet {
 
     }
 
+    public void inputFromScanner(){
+
+        TreeSet <String> stringTreeSet = new TreeSet<>();
+        Scanner scanner= new Scanner(System.in);
+
+        String flag="Y";
+        while (flag.equals("Y")){
+
+            System.out.println("Please enter Values for TreeSet: ");
+
+            String value=scanner.nextLine();
+            stringTreeSet.add(value);
+            System.out.println("Press Y to add more elements or press any key to exit ");
+            flag=scanner.nextLine();
+        }
+
+        System.out.println("TreeSet Create by user is : "+stringTreeSet);
+
+    }
+
 
     public static void main(String[] args) {
 
         DemoTreeSet obj = new DemoTreeSet();
         obj.createTreeSet();
+
+        obj.inputFromScanner();
 
     }
 }
