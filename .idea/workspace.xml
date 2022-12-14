@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ab36fad-66a4-4450-a35d-fe82bec16d11" name="Changes" comment="return type method">
+    <list default="true" id="3ab36fad-66a4-4450-a35d-fe82bec16d11" name="Changes" comment="hashset demo">
       <change afterPath="$PROJECT_DIR$/src/arraylist/demo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/arraylist/vehiclearraylist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/student.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/parameterizedconstructor/employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vehiclehashcode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
       <recent name="arraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.vehiclearraylist">
+  <component name="RunManager" selected="Application.vehiclehashcode">
     <configuration name="assignment2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arraylist.assignment2" />
       <module name="core-java-nov-batch" />
@@ -63,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="assignmentarraylist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arraylist.assignmentarraylist" />
+    <configuration name="demohashset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraylist.demohashset" />
       <module name="core-java-nov-batch" />
       <extension name="coverage">
         <pattern>
@@ -76,21 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="scannermethod.calc" />
-      <module name="core-java-nov-batch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scannermethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arraylist.demo" />
+    <configuration name="studenthashset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraylist.studenthashset" />
       <module name="core-java-nov-batch" />
       <extension name="coverage">
         <pattern>
@@ -115,13 +104,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="vehiclehashcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vehiclehashcode" />
+      <module name="core-java-nov-batch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.vehiclehashcode" />
+        <item itemvalue="Application.studenthashset" />
+        <item itemvalue="Application.demohashset" />
         <item itemvalue="Application.vehiclearraylist" />
         <item itemvalue="Application.assignment2" />
-        <item itemvalue="Application.assignmentarraylist" />
-        <item itemvalue="Application.demo" />
-        <item itemvalue="Application.calc" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +347,28 @@
       <option name="project" value="LOCAL" />
       <updated>1670776953484</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="vehicle model in arraylist">
+      <created>1670780838109</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1670780838109</updated>
+    </task>
+    <task id="LOCAL-00033" summary="hashset demo">
+      <created>1670898749499</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1670898749500</updated>
+    </task>
+    <task id="LOCAL-00034" summary="hashcode student list">
+      <created>1670929826301</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1670929826301</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -375,7 +392,10 @@
     <MESSAGE value="calculator app" />
     <MESSAGE value="arraylist" />
     <MESSAGE value="arraylist 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="arraylist 2" />
+    <MESSAGE value="vehicle model in arraylist" />
+    <MESSAGE value="hashset demo" />
+    <MESSAGE value="hashcode student list" />
+    <option name="LAST_COMMIT_MESSAGE" value="hashcode student list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
