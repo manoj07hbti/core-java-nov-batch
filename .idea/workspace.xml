@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fefd9b7-4c80-4a97-8175-8c8d0b267427" name="Changes" comment="Book">
-      <change afterPath="$PROJECT_DIR$/src/SpringBoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/methodreturn/Studenthashset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Student.java" afterDir="false" />
+    <list default="true" id="6fefd9b7-4c80-4a97-8175-8c8d0b267427" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/methodreturn/Treeset.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/git/Tableof5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/git/Tableof5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/method/Primenumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/method/Primenumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +35,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Studenthashset">
+  <component name="RunManager" selected="Application.Treeset">
     <configuration name="Ifclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="git.Ifclass" />
       <module name="core-java-nov-batch" />
@@ -92,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="methodreturn.Hashset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methodreturn.Hashset" />
+    <configuration name="Treeset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="methodreturn.Treeset" />
       <module name="core-java-nov-batch" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Treeset" />
         <item itemvalue="Application.Studenthashset" />
         <item itemvalue="Application.Primenumber" />
         <item itemvalue="Application.Oddeven" />
         <item itemvalue="Application.Ifclass" />
-        <item itemvalue="Application.methodreturn.Hashset" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670873655945</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="studentclass using hashset">
+      <created>1670954538009</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1670954538009</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -345,6 +348,7 @@
     <MESSAGE value="Calculator" />
     <MESSAGE value="arraylist" />
     <MESSAGE value="hashset(string,integer,double)" />
-    <option name="LAST_COMMIT_MESSAGE" value="hashset(string,integer,double)" />
+    <MESSAGE value="studentclass using hashset" />
+    <option name="LAST_COMMIT_MESSAGE" value="studentclass using hashset" />
   </component>
 </project>
