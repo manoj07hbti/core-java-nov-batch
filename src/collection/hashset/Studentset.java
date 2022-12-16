@@ -66,11 +66,42 @@ public class Studentset {
 
     }
 
+    //public void inputfromscanner(){
+
+    //    LinkedHashSet<Studentlist>studentlists=new LinkedHashSet<>();
+
+    //    Scanner scanner=new Scanner(System.in);
+    //     String Choice="y";
+     //    while(Choice.equals("y")){
+
+     //        System.out.println("please enter the value");
+
+       //      String value=scanner.nextLine();
+         //    Integer Value1=scanner.nextInt();
+           //  String value2=scanner.nextLine();
+
+          //   studentlists.size();
+
+        //     System.out.println("Press Y to add more elements or press any key to exit " );
+        //     Choice = scanner.nextLine();
+          //   Choice= scanner.nextLine();
+         //    Choice=scanner.nextLine();
+
+     //    }
+       // System.out.println("TreeSet Create by user is : " + studentlists);
+
+   // }
+
+
+
      public static void main(String[]args){
 
 
           // P.. classname obj1= P... classname
              Studentset obj= new Studentset();
+
+
+         //    obj.inputfromscanner();
 
              //Hashset<modelclass>obj2=obj1.methodname();
              HashSet <Studentlist>  studentHashSet=  obj.names();
