@@ -58,7 +58,7 @@ public class EmployeeHashSet {
         HashSet<Employee> employeeHashSet = obj.createEmployeeHashSet();
 
         for (Employee var : employeeHashSet){
-            System.out.println("Printing all data :: " +var.getName() + " Age : "  +var.getAge() + " Salary : "  +var.getSalary());
+            System.out.println("Printing all data :: " +var.getName() + " Age :: "  +var.getAge() + " Salary : "  +var.getSalary());
         }
 
     }
