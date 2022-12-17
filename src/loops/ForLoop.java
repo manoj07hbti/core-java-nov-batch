@@ -15,5 +15,17 @@ public class ForLoop {
         for (int i = 10; i > 0; i--) {
             System.out.println("DECREMENT "+i);
         }
+
+        // revision
+        for (int i = 0; i <5; i++) {
+            System.out.println("Revision "+i);
+        }
+
+        // revision 2
+        for (int i = 5; i>0; i--)  {
+            System.out.println("Revision 2"+i);
+        }
+
+        }
     }
-}
+

@@ -1,24 +1,39 @@
 package arrayList.model;
 
+import java.util.Objects;
+
 public class Employee {
 
     String name;
-    int ID;
+    int Id;
     double salary;
 
-    // *****Parameterize constructor*****
+    //***** Parameterize constructor *****
 
-
-    public Employee(String name, int ID, double salary) {
+    public Employee(String name, int id, double salary) {
         this.name = name;
-        this.ID = ID;
+        Id = id;
         this.salary = salary;
     }
 
+    // ***** HashCode or Equals *****
 
-    // ******getter and setter*****
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Employee employee = (Employee) o;
+        return Id == employee.Id && Double.compare(employee.salary, salary) == 0 && name.equals(employee.name);
+    }
 
-    // for name
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, Id, salary);
+    }
+
+    // ***** Getter and Setter *****
+
+    // ***** for name *****
     public String getName() {
         return name;
     }
@@ -27,18 +42,16 @@ public class Employee {
         this.name = name;
     }
 
-
-    // for ID
-    public int getID() {
-        return ID;
+   // ***** for Id *****
+    public int getId() {
+        return Id;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
+    public void setId(int id) {
+        Id = id;
     }
 
-
-    // for salary
+   // ***** for Salary *****
     public double getSalary() {
         return salary;
     }
@@ -46,6 +59,4 @@ public class Employee {
     public void setSalary(double salary) {
         this.salary = salary;
     }
-
-
 }
