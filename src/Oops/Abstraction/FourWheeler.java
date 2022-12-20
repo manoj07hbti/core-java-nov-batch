@@ -20,7 +20,7 @@ public class FourWheeler extends Vehicle {
 
     public static void main(String[] args) {
 
-        System.out.println("Welcome to four wheeler Management System");
+        System.out.println("Welcome to four wheeler Management System  ");
 
         FourWheeler obj = new FourWheeler();
         obj.vehicleInfo();
