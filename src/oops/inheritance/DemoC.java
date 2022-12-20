@@ -1,6 +1,6 @@
 package oops.inheritance;
 
-public class DemoC extends DemoB{
+public class DemoC extends DemoB {
 
     public void m4(){
         System.out.println("This is M4 class of DemoC");

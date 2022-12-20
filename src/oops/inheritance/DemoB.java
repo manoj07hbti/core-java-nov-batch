@@ -1,6 +1,6 @@
 package oops.inheritance;
 
-public class DemoB extends DemoA{
+public class DemoB extends DemoA {
 
     public void m3 (){
         System.out.println("This is M3 class of DemoB");

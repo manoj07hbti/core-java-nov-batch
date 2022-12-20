@@ -1,6 +1,6 @@
 package oops.inheritance;
 
-public class DemoD extends DemoC{
+public class DemoD extends DemoC {
 
     public static void main(String[] args) {
 
