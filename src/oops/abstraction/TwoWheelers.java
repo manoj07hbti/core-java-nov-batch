@@ -14,8 +14,8 @@ public class TwoWheelers extends Vehicle{
 
     public static void main(String[] args) {
         TwoWheelers obj = new TwoWheelers();
-       obj.model();
-      //  System.out.println("Model of Vehicle is : "+obj.model());
+      String model =  obj.model();
+      System.out.println("Model of Vehicle is : "+model);
         obj.pricing();
         obj.servicing();
     }
