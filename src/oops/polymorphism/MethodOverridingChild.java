@@ -8,9 +8,15 @@ public class MethodOverridingChild extends MethodOverridingParent {
         System.out.println("This is M1 method of CHILD class");
     }
 
-    protected void m2(){
+    public void m2(){
 
         System.out.println("CHILD : 1.Overriding and Access-Modifiers  Rule ");
+    }
+
+
+    private void m4(){
+
+        System.out.println("CHILD This is private method ");
     }
 
     public MethodOverridingChild createObject(){
@@ -22,6 +28,7 @@ public class MethodOverridingChild extends MethodOverridingParent {
     public static void main(String[] args) {
 
         MethodOverridingParent obj= new MethodOverridingParent();
+
 
         obj.m1(); //PARENT because object is created of parent class in runtime
 

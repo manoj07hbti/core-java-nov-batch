@@ -7,7 +7,7 @@ public class MethodOverridingParent {
         System.out.println("This is M1 method of PARENT class");
     }
 
-    private void m2(){
+    protected void m2(){
 
         System.out.println("1.Overriding and Access-Modifiers  Rule ");
     }
@@ -15,6 +15,11 @@ public class MethodOverridingParent {
     public final void m3(){
 
         System.out.println("THIS IS FINAL METHOD ");
+    }
+
+    private void m4(){
+
+        System.out.println("This is private method ");
     }
 
 
