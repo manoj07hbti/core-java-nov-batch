@@ -14,6 +14,9 @@ public class Calculator {
         catch (Exception e){
             System.out.println("Exception occurred is here : ");
         }
+        finally {
+            System.out.println("This is finally block : ");
+        }
 
         System.out.println("Result is calculated : " + result);
 
@@ -28,15 +31,6 @@ public class Calculator {
 
         System.out.println("Divide is here : " +result);
 
-        String arr [] = {"java" , "java8" , "Spring" , "Spring Boot"};
 
-        try {
-            System.out.println(arr [5]);
-        }
-        catch (Exception e ){
-            System.out.println(e);
-        }
-
-        System.out.println("Array printed : ");
     }
 }
