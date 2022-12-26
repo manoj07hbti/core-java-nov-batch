@@ -14,6 +14,10 @@ public class Calculator {
         catch (Exception e){
             System.out.println("Exception occurred "+e);
         }
+        finally {
+
+            System.out.println("This is finally BLock ");
+        }
 
 
 
@@ -31,17 +35,7 @@ public class Calculator {
         System.out.println("DIVIDE is : "+result);
 
 
-        String arr[]= {"Java","Java8","Spring ","Spring boot"};
 
-        try {
-            System.out.println(arr[5]);
-        }
-        catch (Exception e){
-
-            System.out.println(e);
-        }
-
-        System.out.println("Array printed");
 
 
     }
